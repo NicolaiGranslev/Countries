@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
         @GetMapping("/")
         public String welcome() {
-            return "Welcome to the countries website!";
+            return "Malthe er en lille flødebolle dreng, og tim han godt lide moyonaise på hans mad " +
+                    "εつ▄█▀█●";
         }
     }
